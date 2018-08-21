@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background: #333;
+    background: url(https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-4/htmlcss1-img_soccer.jpeg) no-repeat; 
+    background-size: cover;
+    background-position: center;
+}
+
+.project {
+
+    margin: 40px auto;
+    width: 60%;
+}
+
+.main { 
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    background: #fff;  
+    text-align: center;
+    padding: 20px 35px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.main h1 {
+    font-size: 40px;
+    padding: 5px;
+}
+.main h4 {
+    font-size: 20px;
+    padding: 5px;
+}
